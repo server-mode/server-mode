@@ -11,12 +11,14 @@ Tôi đang là sinh viên ngành **Khoa học Dữ liệu**, đam mê nghiên c�
 
 ## 💼 Kỹ năng
 
-### 🖥️ Ngôn ngữ lập trình
+### 🖥️ Ngôn ngữ lập trình chính
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![C](https://img.shields.io/badge/-C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
+
+### 🔧 Ngôn ngữ bổ sung
 ![C++](https://img.shields.io/badge/-C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![C#](https://img.shields.io/badge/-C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![CUDA](https://img.shields.io/badge/-CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
 
 ### 🎨 Graphics & Game Development
@@ -70,9 +72,22 @@ Tôi đang là sinh viên ngành **Khoa học Dữ liệu**, đam mê nghiên c�
 ## 🏆 Dự án nổi bật
 
 ### 🤖 [AiMimic](https://github.com/server-mode/AiMimic)
-Dự án AI sử dụng Python, tập trung vào việc phát triển các mô hình machine learning và deep learning. Đây là dự án nghiên cứu trong lĩnh vực khoa học dữ liệu với mục tiêu ứng dụng AI vào các bài toán thực tế.
 
-**Tech Stack:** ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![AI/ML](https://img.shields.io/badge/-AI%2FML-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+Dự án AI nghiên cứu về learning mechanism và model optimization, tập trung vào việc tối ưu hóa hiệu suất inference và memory management cho các hệ thống resource-constrained.
+
+**Kỹ thuật triển khai:**
+- 🧠 **Memory-based learning mechanism** - Implement dual-layer memory architecture (long-term + short-term) cho context retention
+- 🔄 **Custom embedding pipeline** - Xây dựng pipeline embedding tùy chỉnh với quantization và dimensionality reduction
+- ⚡ **Optimized inference for low VRAM** - Áp dụng model quantization (INT8/FP16), gradient checkpointing và batch optimization
+- 📊 **Dataset preprocessing & feature engineering** - Pipeline tự động cho data cleaning, augmentation và feature extraction
+- 🎯 **Adaptive learning rate scheduling** - Dynamic adjustment dựa trên loss landscape và validation metrics
+
+**Tech Stack:** 
+
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) 
+![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![NumPy](https://img.shields.io/badge/-NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 
 ---
 
