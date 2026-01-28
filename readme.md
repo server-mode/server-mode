@@ -9,6 +9,8 @@
 ## 🚀 Giới thiệu
 Tôi đang là sinh viên ngành **Khoa học Dữ liệu**, đam mê nghiên cứu và phát triển các ứng dụng AI, machine learning, game development và graphics programming. Luôn tìm kiếm cơ hội để học hỏi và áp dụng công nghệ vào giải quyết các vấn đề thực tế.
 
+**Solo Developer** - Phát triển và maintain các dự án cá nhân từ ý tưởng đến implementation.
+
 ## 💼 Kỹ năng
 
 ### 🖥️ Ngôn ngữ lập trình chính
@@ -71,23 +73,56 @@ Tôi đang là sinh viên ngành **Khoa học Dữ liệu**, đam mê nghiên c�
 
 ## 🏆 Dự án nổi bật
 
-### 🤖 [AiMimic](https://github.com/server-mode/AiMimic)
+### 🤖 [AiMimic – Continual Learning Toolkit](https://github.com/server-mode/AiMimic)
+**⏱️ Development Time: 6 tháng | 👤 Solo Project**
 
-Dự án AI nghiên cứu về learning mechanism và model optimization, tập trung vào việc tối ưu hóa hiệu suất inference và memory management cho các hệ thống resource-constrained.
+Continual Learning Toolkit nhỏ gọn viết bằng PyTorch, tập trung vào nghiên cứu **Catastrophic Forgetting** và các chiến lược **Continual Learning** cho sequential tasks.
 
 **Kỹ thuật triển khai:**
-- 🧠 **Memory-based learning mechanism** - Implement dual-layer memory architecture (long-term + short-term) cho context retention
-- 🔄 **Custom embedding pipeline** - Xây dựng pipeline embedding tùy chỉnh với quantization và dimensionality reduction
-- ⚡ **Optimized inference for low VRAM** - Áp dụng model quantization (INT8/FP16), gradient checkpointing và batch optimization
-- 📊 **Dataset preprocessing & feature engineering** - Pipeline tự động cho data cleaning, augmentation và feature extraction
-- 🎯 **Adaptive learning rate scheduling** - Dynamic adjustment dựa trên loss landscape và validation metrics
+- 🧠 **Memory-based learning mechanism** - Implement Rehearsal strategy với MemoryBuffer cho replay mechanism (long-term retention)
+- 🔄 **EWC (Elastic Weight Consolidation)** - Fisher Information Matrix để penalty các tham số quan trọng, ngăn chặn catastrophic forgetting
+- ⚡ **Parameter Isolation với LoRA** - Low-rank adaptation cho linear layers, freeze backbone và chỉ train adapter per task
+- 📊 **Metrics & Visualization** - AccuracyMatrix (task performance tracking), ForgettingMetric (max acc - current acc), heatmap visualization
+- 🎯 **Multi-strategy Trainer** - Unified ContinualTrainer hỗ trợ naive/rehearsal/ewc strategies với YAML config
+
+**Key Features:**
+- Sequential task training (MNIST/CIFAR splits)
+- Forgetting score measurement & visualization
+- Fisher diagonal approximation for EWC
+- Memory replay buffer với capacity management
 
 **Tech Stack:** 
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) 
 ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![NumPy](https://img.shields.io/badge/-NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+
+---
+
+### 🚀 [PyLittle – Hardware-Aware LLM Inference](https://github.com/server-mode/PyLittle)
+**⏱️ Development Time: 10 tháng | 👤 Solo Project**
+
+Thư viện LLM inference được thiết kế cho hardware resource-constrained, tối ưu hóa để chạy các mô hình lớn trên máy có VRAM thấp (6-8GB) với hiệu suất gần GPU-class.
+
+**Kỹ thuật triển khai:**
+- 💾 **Low-VRAM first design** - Quantized weights (Q4/Q8) và KV-cache quantization để giảm memory footprint, hierarchical offload (VRAM ↔ pinned RAM ↔ disk mmap) với async prefetch và LRU eviction
+- 🔧 **Multi-backend architecture** - Pluggable backends hỗ trợ CPU, CUDA (NVIDIA), ROCm (AMD), Vulkan (cross-vendor) với fused kernels roadmap
+- 🛡️ **Safety & durability** - Thermal/usage monitoring (NVML/ROCm SMI), policy-based throttling để bảo vệ hardware yếu, graceful degrade với auto-reduce batch/context/precision
+- 🔄 **Memory budgeter** - Đọc device capabilities và tự động plan allocation (weights/KV/scratch) để fit best trên weak GPUs
+- 🐍 **Python-first API** - Clean API tương thích NumPy/Torch, HF adapters integration, optional native engine via pybind11
+
+**Key Features:**
+- Safetensors-first loading với bitsandbytes 4/8-bit quantization
+- Device auto-mapping với max_memory budget
+- Benchmark harness để compare với vanilla HF
+- CLI interface và thermal safety policies
+
+**Tech Stack:** 
+
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![CUDA](https://img.shields.io/badge/-CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 
 ---
 
@@ -126,18 +161,6 @@ Dự án AI nghiên cứu về learning mechanism và model optimization, tập 
 ---
 
 <div align="center">
-  
-### 💭 Quote of the Day
-  
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
-
-</div>
-
----
-
-<div align="center">
-  
-*⭐️ "Code is like humor. When you have to explain it, it's bad." – Cory House*
 
 **🎮 Game Dev | 🔍 Reverse Engineer | 📊 Data Scientist | 🎨 Graphics Programmer**
 
