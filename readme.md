@@ -1,4 +1,4 @@
-# 👋 Xin chào, tôi là NHH
+# 👋 Hi, I'm NHH
 
 <div align="center">
   
@@ -6,18 +6,18 @@
   
 </div>
 
-## 🚀 Giới thiệu
-Tôi đang là sinh viên ngành **Khoa học Dữ liệu**, đam mê nghiên cứu và phát triển các ứng dụng AI, machine learning, game development và graphics programming. Luôn tìm kiếm cơ hội để học hỏi và áp dụng công nghệ vào giải quyết các vấn đề thực tế.
+## 🚀 About Me
+Currently a **Data Science** student, researching and developing AI applications, machine learning, game development, and graphics programming. Always looking for opportunities to learn and apply technology to solve real-world problems.
 
-**Solo Developer** - Phát triển và maintain các dự án cá nhân từ ý tưởng đến implementation.
+**Solo Developer** - Building and maintaining personal projects from concept to implementation.
 
-## 💼 Kỹ năng
+## 💼 Skills
 
-### 🖥️ Ngôn ngữ lập trình chính
+### 🖥️ Primary Languages
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![C](https://img.shields.io/badge/-C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
 
-### 🔧 Ngôn ngữ bổ sung
+### 🔧 Additional Languages
 ![C++](https://img.shields.io/badge/-C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![C#](https://img.shields.io/badge/-C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
@@ -43,21 +43,21 @@ Tôi đang là sinh viên ngành **Khoa học Dữ liệu**, đam mê nghiên c�
 ![Supabase](https://img.shields.io/badge/-Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
 ![AWS](https://img.shields.io/badge/-AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
 
-## 🔍 Chuyên môn đặc biệt
+## 🔍 Specialized Expertise
 
 ### 🛡️ Reverse Engineering
-- 🔓 Dịch ngược phần mềm sử dụng **.NET Framework**
-- 🎮 Phân tích và reverse các **game engine C++** thông dụng
-- 🔧 Kinh nghiệm với công cụ debugging và decompilation
+- 🔓 Reverse engineering software using **.NET Framework**
+- 🎮 Analyzing and reversing common **C++ game engines**
+- 🔧 Experience with debugging and decompilation tools
 
 ### 🎮 Game Development
-- 🕹️ Thành thạo **Godot Engine** cho phát triển game 2D/3D
-- 🎯 Đang học **Unity** để mở rộng kỹ năng game development
-- 🖼️ Kinh nghiệm với **OpenGL** và **Vulkan** cho rendering 3D
+- 🕹️ Proficient in **Godot Engine** for 2D/3D game development
+- 🎯 Learning **Unity** to expand game development skills
+- 🖼️ Experience with **OpenGL** and **Vulkan** for 3D rendering
 
 ### ⚡ High Performance Computing
-- 🚀 NVIDIA CUDA programming cho tính toán song song
-- 💻 Tối ưu hóa hiệu năng cho ứng dụng graphics và data processing
+- 🚀 NVIDIA CUDA programming for parallel computing
+- 💻 Performance optimization for graphics and data processing applications
 
 ## 📊 GitHub Stats
 
@@ -71,25 +71,25 @@ Tôi đang là sinh viên ngành **Khoa học Dữ liệu**, đam mê nghiên c�
 
 </div>
 
-## 🏆 Dự án nổi bật
+## 🏆 Featured Projects
 
 ### 🤖 [AiMimic – Continual Learning Toolkit](https://github.com/server-mode/AiMimic)
-**⏱️ Development Time: 6 tháng | 👤 Solo Project**
+**⏱️ Development Time: 6 months | 👤 Solo Project**
 
-Continual Learning Toolkit nhỏ gọn viết bằng PyTorch, tập trung vào nghiên cứu **Catastrophic Forgetting** và các chiến lược **Continual Learning** cho sequential tasks.
+A compact Continual Learning Toolkit written in PyTorch, focusing on **Catastrophic Forgetting** research and **Continual Learning** strategies for sequential tasks.
 
-**Kỹ thuật triển khai:**
-- 🧠 **Memory-based learning mechanism** - Implement Rehearsal strategy với MemoryBuffer cho replay mechanism (long-term retention)
-- 🔄 **EWC (Elastic Weight Consolidation)** - Fisher Information Matrix để penalty các tham số quan trọng, ngăn chặn catastrophic forgetting
-- ⚡ **Parameter Isolation với LoRA** - Low-rank adaptation cho linear layers, freeze backbone và chỉ train adapter per task
+**Technical Implementation:**
+- 🧠 **Memory-based learning mechanism** - Implemented Rehearsal strategy with MemoryBuffer for replay mechanism (long-term retention)
+- 🔄 **EWC (Elastic Weight Consolidation)** - Fisher Information Matrix to penalize important parameters, preventing catastrophic forgetting
+- ⚡ **Parameter Isolation with LoRA** - Low-rank adaptation for linear layers, freeze backbone and train only adapter per task
 - 📊 **Metrics & Visualization** - AccuracyMatrix (task performance tracking), ForgettingMetric (max acc - current acc), heatmap visualization
-- 🎯 **Multi-strategy Trainer** - Unified ContinualTrainer hỗ trợ naive/rehearsal/ewc strategies với YAML config
+- 🎯 **Multi-strategy Trainer** - Unified ContinualTrainer supporting naive/rehearsal/ewc strategies with YAML config
 
 **Key Features:**
 - Sequential task training (MNIST/CIFAR splits)
 - Forgetting score measurement & visualization
 - Fisher diagonal approximation for EWC
-- Memory replay buffer với capacity management
+- Memory replay buffer with capacity management
 
 **Tech Stack:** 
 
@@ -100,22 +100,22 @@ Continual Learning Toolkit nhỏ gọn viết bằng PyTorch, tập trung vào n
 ---
 
 ### 🚀 [PyLittle – Hardware-Aware LLM Inference](https://github.com/server-mode/PyLittle)
-**⏱️ Development Time: 10 tháng | 👤 Solo Project**
+**⏱️ Development Time: 10 months | 👤 Solo Project**
 
-Thư viện LLM inference được thiết kế cho hardware resource-constrained, tối ưu hóa để chạy các mô hình lớn trên máy có VRAM thấp (6-8GB) với hiệu suất gần GPU-class.
+An LLM inference library designed for resource-constrained hardware, optimized to run large models on machines with low VRAM (6-8GB) at near GPU-class performance.
 
-**Kỹ thuật triển khai:**
-- 💾 **Low-VRAM first design** - Quantized weights (Q4/Q8) và KV-cache quantization để giảm memory footprint, hierarchical offload (VRAM ↔ pinned RAM ↔ disk mmap) với async prefetch và LRU eviction
-- 🔧 **Multi-backend architecture** - Pluggable backends hỗ trợ CPU, CUDA (NVIDIA), ROCm (AMD), Vulkan (cross-vendor) với fused kernels roadmap
-- 🛡️ **Safety & durability** - Thermal/usage monitoring (NVML/ROCm SMI), policy-based throttling để bảo vệ hardware yếu, graceful degrade với auto-reduce batch/context/precision
-- 🔄 **Memory budgeter** - Đọc device capabilities và tự động plan allocation (weights/KV/scratch) để fit best trên weak GPUs
-- 🐍 **Python-first API** - Clean API tương thích NumPy/Torch, HF adapters integration, optional native engine via pybind11
+**Technical Implementation:**
+- 💾 **Low-VRAM first design** - Quantized weights (Q4/Q8) and KV-cache quantization to reduce memory footprint, hierarchical offload (VRAM ↔ pinned RAM ↔ disk mmap) with async prefetch and LRU eviction
+- 🔧 **Multi-backend architecture** - Pluggable backends supporting CPU, CUDA (NVIDIA), ROCm (AMD), Vulkan (cross-vendor) with fused kernels roadmap
+- 🛡️ **Safety & durability** - Thermal/usage monitoring (NVML/ROCm SMI), policy-based throttling to protect weak hardware, graceful degrade with auto-reduce batch/context/precision
+- 🔄 **Memory budgeter** - Reads device capabilities and automatically plans allocation (weights/KV/scratch) to best fit on weak GPUs
+- 🐍 **Python-first API** - Clean API compatible with NumPy/Torch, HF adapters integration, optional native engine via pybind11
 
 **Key Features:**
-- Safetensors-first loading với bitsandbytes 4/8-bit quantization
-- Device auto-mapping với max_memory budget
-- Benchmark harness để compare với vanilla HF
-- CLI interface và thermal safety policies
+- Safetensors-first loading with bitsandbytes 4/8-bit quantization
+- Device auto-mapping with max_memory budget
+- Benchmark harness to compare with vanilla HF
+- CLI interface and thermal safety policies
 
 **Tech Stack:** 
 
@@ -128,16 +128,16 @@ Thư viện LLM inference được thiết kế cho hardware resource-constraine
 
 <div align="center">
   
-### 🎯 Đang làm việc với
+### 🎯 Currently Working On
   
-🔹 Dự án thực tế với **Supabase** cho backend scalable  
-🔹 Học **AWS** để deploy và quản lý cloud infrastructure  
-🔹 Phát triển game với **Godot** và **Unity**  
-🔹 Nghiên cứu AI và data science applications  
+🔹 Real-world projects with **Supabase** for scalable backend  
+🔹 Learning **AWS** for deployment and cloud infrastructure management  
+🔹 Game development with **Godot** and **Unity**  
+🔹 AI and data science applications research  
 
 </div>
 
-## 📫 Liên hệ
+## 📫 Contact
 
 <div align="center">
 
